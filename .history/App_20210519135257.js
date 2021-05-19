@@ -1,4 +1,4 @@
-import Home from './screens/Home'
+import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 
 

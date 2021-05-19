@@ -1,4 +1,4 @@
-import Home from './screens/Home'
+import { Home }
 import React from 'react';
 
 
