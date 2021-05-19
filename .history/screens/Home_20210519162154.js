@@ -5,9 +5,19 @@ import { globalStyles } from '../styles/global'
 const Home = () => {
   return (
     <View style={ globalStyles.container }>
-      <Text style={ globalStyles.titleText }>Home Screen</Text>
+      <Text style={ styles.titleText }>Home Screen</Text>
     </View>
   );
 }
  
 export default Home;
+
+let styles = StyleSheet.create({
+  container: {
+    padding: 24,
+  },
+  titleText: {
+    fontSize: 24,
+
+  },
+})

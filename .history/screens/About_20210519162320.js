@@ -4,10 +4,19 @@ import { globalStyles } from '../styles/global'
 
 const About = () => {
   return (
-    <View style={ globalStyles.container }>
+    <View style={ styles.container }>
       <Text>About</Text>
     </View>
   );
 }
-
+ 
 export default About;
+
+let styles = StyleSheet.create({
+  container: {
+    padding: 24,
+  },
+  titleText: {
+    fontSize: 24,
+  },
+})
