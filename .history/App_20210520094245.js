@@ -1,10 +1,10 @@
 import Home from './screens/home'
 import React from 'react';
-import Navigator from './routes/homeStack'
+import 
 
 
 export default function App() {
   return (
-    <Navigator />
+    <Home />
   );
 }
