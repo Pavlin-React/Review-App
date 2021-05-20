@@ -4,9 +4,7 @@ import { globalStyles } from '../styles/global'
 
 const DetailsReview = ( { navigation } ) => {
  
-  let pressHandler = () => {
-    navigation.goBack()
-  }
+  let pressHa
 
   return (
     <View style={ globalStyles.container }>

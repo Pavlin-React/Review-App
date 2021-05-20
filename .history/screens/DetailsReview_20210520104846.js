@@ -2,18 +2,18 @@ import React from 'react';
 import { Button, Text, View } from 'react-native';
 import { globalStyles } from '../styles/global'
 
-const Home = ( { navigation } ) => {
-
+const DetailsReview = ( { navigation } ) => {
+ 
   let pressHandler = () => {
-    navigation.push('DetailsReview')
+    navigation.go
   }
 
   return (
     <View style={ globalStyles.container }>
-      <Text style={ globalStyles.titleText }>Home Screen</Text>
-      <Button title='Go to review dets' onPress={ pressHandler } />
+      <Text>DetailsReview</Text>
+      <Button title='Go Back' onPress={ pressHandler } />
     </View>
   );
 }
  
-export default Home;
+export default DetailsReview;

@@ -5,7 +5,7 @@ import { globalStyles } from '../styles/global'
 const Home = ( { navigation } ) => {
 
   let pressHandler = () => {
-    navigation.push('DetailsReview')
+    navigation.pus
   }
 
   return (
