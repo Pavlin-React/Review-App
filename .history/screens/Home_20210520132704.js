@@ -15,7 +15,7 @@ const Home = ( { navigation } ) => {
       <FlatList
         data={ reviews }
         renderItem={ ( { item } )=>(
-          <TouchableOpacity onPress={ () => navigation.navigate( 'DetailsReview', item ) } >
+          <TouchableOpacity onPress={ () => navigation.navi } >
             <Text style={ globalStyles.titleText } >{ item.title }</Text>
           </TouchableOpacity>
         )}

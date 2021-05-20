@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FlatList, TouchableOpacity, Text, View } from 'react-native';
+import { interpolate } from 'react-native-reanimated';
 import { globalStyles } from '../styles/global'
 
 const Home = ( { navigation } ) => {
@@ -14,11 +15,7 @@ const Home = ( { navigation } ) => {
     <View style={ globalStyles.container }>
       <FlatList
         data={ reviews }
-        renderItem={ ( { item } )=>(
-          <TouchableOpacity onPress={ () => navigation.navigate( 'DetailsReview', item ) } >
-            <Text style={ globalStyles.titleText } >{ item.title }</Text>
-          </TouchableOpacity>
-        )}
+        renderItem( { interpolate, } )
       />
     </View>
   );

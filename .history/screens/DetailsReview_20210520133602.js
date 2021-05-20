@@ -9,7 +9,7 @@ const DetailsReview = ( { navigation } ) => {
     <View style={ globalStyles.container }>
       <Text>{ navigation.getParam( 'title' ) }</Text>
       <Text>{ navigation.getParam( 'rating' ) }</Text>
-      <Text>{ navigation.getParam( 'body' ) }</Text>
+      <Text>{ navigation.getParam( 'bo' ) }</Text>
     </View>
   );
 }
