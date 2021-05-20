@@ -7,14 +7,12 @@ let screens = {
   Home: {
     screen: Home,
     navigationOptions: {
-      title: 'Game Zone'
+      title: 'GameZone'
     }
   },
   DetailsReview: {
     screen: DetailsReview,
-    navigationOptions: {
-      title: 'Danger Zone'
-    }
+    
   }
 }
 

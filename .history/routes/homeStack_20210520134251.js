@@ -6,15 +6,9 @@ import DetailsReview from '../screens/detailsReview'
 let screens = {
   Home: {
     screen: Home,
-    navigationOptions: {
-      title: 'Game Zone'
-    }
   },
   DetailsReview: {
-    screen: DetailsReview,
-    navigationOptions: {
-      title: 'Danger Zone'
-    }
+    screen: DetailsReview
   }
 }
 

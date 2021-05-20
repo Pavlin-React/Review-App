@@ -7,7 +7,8 @@ let screens = {
   Home: {
     screen: Home,
     navigationOptions: {
-      title: 'Game Zone'
+      title: 'Game Zone',
+      headerStyle: { backgroundColor: '#eee' }
     }
   },
   DetailsReview: {

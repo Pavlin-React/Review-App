@@ -7,17 +7,19 @@ let screens = {
   Home: {
     screen: Home,
     navigationOptions: {
-      title: 'Game Zone'
+      title: 'Game Zone',
+      headerStyle: { backgroundColor: '#eee' }
     }
   },
   DetailsReview: {
     screen: DetailsReview,
     navigationOptions: {
-      title: 'Danger Zone'
+      title: 'Danger Zone',
+      headerStyle: { backgroundColor: '#eee' }
     }
   }
 }
 
-let HomeStack = createStackNavigator( screens )
+let HomeStack = createStackNavigator( screens, )
 
 export default createAppContainer( HomeStack )

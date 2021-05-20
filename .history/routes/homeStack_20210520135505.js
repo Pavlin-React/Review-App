@@ -13,11 +13,16 @@ let screens = {
   DetailsReview: {
     screen: DetailsReview,
     navigationOptions: {
-      title: 'Danger Zone'
+      title: 'Danger Zone',
+      headerStyle: { backgroundColor: '#eee' }
     }
   }
 }
 
-let HomeStack = createStackNavigator( screens )
+let HomeStack = createStackNavigator( screens, {
+  defaultNavigationOptions: {
+
+  }
+} )
 
 export default createAppContainer( HomeStack )

@@ -18,6 +18,7 @@ let screens = {
   }
 }
 
-let HomeStack = createStackNavigator( screens )
+let HomeStack = createStackNavigator( screens
+} )
 
 export default createAppContainer( HomeStack )
